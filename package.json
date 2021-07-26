@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "FSFE masters",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanluisja1/fsfev2.git"
+  },
+  "author": "jj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanluisja1/fsfev2/issues"
+  },
+  "homepage": "https://github.com/juanluisja1/fsfev2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
