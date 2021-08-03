@@ -6,6 +6,12 @@ app.get('/', (req, res) => {
   res.send('Coming soon!!')
 })
 
+app.get('/demo', (req, res) => {
+  res.set('X-rentatool','4life')
+  res.status(418);
+  res.send('Renting saves you money!')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
