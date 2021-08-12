@@ -7,9 +7,9 @@ app.get('/', (req, res) => {
 })
 
 app.get('/demo', (req, res) => {
-  res.set('X-rentatool','4life')
+  res.set('X-customHeader','amazingneighbor.com');
   res.status(418);
-  res.send('Renting saves you money!')
+  res.send('Renting saves you money!');
 })
 
 app.listen(port, () => {
